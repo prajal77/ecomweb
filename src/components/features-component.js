@@ -2,7 +2,7 @@
 const FeaturesComponent = () => {
     return <>
 
-        <div className="container py-16 w-10/12 flex gap-10  justify-between items-center">
+        <div className="container py-16  flex gap-10  justify-between items-center">
             <div className="shadow-xl rounded-sm px-3 py-6 flex  items-center gap-5">
                 <span className="w-12 h12 object-cover text-secondary">
                     <svg width="33" height="27" viewBox="0 0 33 27" fill="none" xmlns="http://www.w3.org/2000/svg">

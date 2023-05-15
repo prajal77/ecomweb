@@ -1,4 +1,4 @@
-import { FaHeart, FaSearch, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 
 const ProductsComponent = () => {

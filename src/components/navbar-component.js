@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className="w-full max-w-xl flex">
 
                     <div className="w-full ">
-                        <input type="text" className="w-full border border-secondary pt-4 py-3 pr-3 " placeholder="Search" />
+                        <input type="text" className="w-full border border-secondary  px-5 py-2" placeholder="Search" />
                     </div>
                     <button className="bg-secondary border border-secondary text-white px-8  hover:text-secondary">
                         <span className=" left-4 top-3 text-lg text-white  ">

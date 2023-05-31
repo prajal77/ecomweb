@@ -16,17 +16,17 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className="container flex items-center justify-between pt-6">
+            <div className="container flex items-center justify-between py-6">
                 {/* logo */}
                 <a href="">
-                    <img src="./logo.svg" alt="" className="w-32" />
+                    <img src="/logo.svg" alt="" className="w-32" />
                 </a>
 
                 {/* searchbar */}
                 <div className="w-full max-w-xl flex">
 
                     <div className="w-full ">
-                        <input type="text" className="w-full border border-secondary  px-5 py-2" placeholder="Search" />
+                        <input type="text" className="w-full border border-secondary  px-5 py-2 " placeholder="Search" />
                     </div>
                     <button className="bg-secondary border border-secondary text-white px-8  hover:text-secondary">
                         <span className=" left-4 top-3 text-lg text-white  ">
@@ -85,11 +85,11 @@ const Navbar = () => {
                         <a href="#" className="text-slate-800 font-semibold hover: text white transition">Blog</a>
                         <a href="#" className="text-slate-800 font-semibold hover: text white transition">Contact</a>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex items-center ">
                         <i>
                             <FaPhoneVolume className="text-secondary w-10 h-7" />
                         </i>
-                        <div className="block text-sm">
+                        <div className=" block text-sm">
                             <h4 className="text-slate-600">Hotline:</h4>
                             <p className="font-semibold">(+402) 763 282 46</p>
                         </div>

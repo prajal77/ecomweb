@@ -1,10 +1,16 @@
-import { FaStar } from "react-icons/fa";
+import { FaArrowCircleRight, FaStar } from "react-icons/fa";
 
 
 const ProductsComponent = () => {
     return <>
         <div className="container pb-16">
-            <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6"> top new arrival Products</h2>
+            <div className="flex justify-between">
+                <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">Trending Products</h2>
+                <a className='flex items-center gap-1 h-[100%] text-white rounded-md  font-semibold bg-secondary justify-center  p-2 hover:bg-black transition ' href='#'>
+                    View All Products
+                    <FaArrowCircleRight />
+                </a>
+            </div>
 
             <div className="grid grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden">

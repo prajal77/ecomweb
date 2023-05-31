@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const BannerComponent = () => {
     return <>
 
-        <Carousel autoPlay={false} infiniteLoop={true} showThumbs={false} className='bg-[#115061] h-full'>
+        <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} className='bg-[#115061] h-full'>
             {/* start */}
             <div className='container flex justify-between items-center'>
                 <section className='text-white'>

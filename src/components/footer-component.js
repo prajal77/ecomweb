@@ -1,4 +1,6 @@
-const { FaFacebook, FaInstagram, FaTwitch, FaTwitter, FaLinkedin, FaMailBulk, FaLocationArrow, FaSearchLocation } = require("react-icons/fa")
+import Image from "next/image";
+
+const { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaMailBulk, FaLocationArrow, FaSearchLocation } = require("react-icons/fa")
 
 const FooterComponent = () => {
     return <>
@@ -6,7 +8,7 @@ const FooterComponent = () => {
             <div className="container grid grid-cols-4">
                 {/* text start */}
                 <div className="col-span-1 space-y-8 gap-4">
-                    <img src="./logo.svg" className="w-30" />
+                    <Image width={128} height={34} src="/logo.svg" className="w-30" />
                     <p className="text-gray-500">
                         We are a team of designers and developers that create high quality WordPress
                     </p>
